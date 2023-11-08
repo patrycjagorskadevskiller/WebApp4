@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.image-container {
+    display: flex; /* U¿yj flexbox do u³o¿enia obrazków obok siebie */
+    max-width: 100%; /* Ustaw maksymaln¹ szerokoœæ kontenera na 100% szerokoœci rodzica */
+}
+
+.image-container img {
+ max-width: 100%;
+ height: auto;
+ max-height: 300px; /* Dostosuj maksymaln¹ wysokoœæ do swoich potrzeb */
+}
+
+.image-container img {
+ margin-right: 10px; /* Dodaj odstêp miêdzy obrazkami (mo¿esz dostosowaæ wartoœæ marginesu do swoich potrzeb) */
+ max-width: 100%; /* Ustaw maksymaln¹ szerokoœæ obrazka na 100% szerokoœci kontenera */
+ height: auto; /* Zachowaj proporcje obrazka */
+ }
